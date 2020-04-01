@@ -20,10 +20,10 @@
     
     <div id="selected_currency" v-if="selectedCurrency">
         <h2> {{selectedCurrency}} </h2>
-        <p v-for="currency in currencies"> 
-            {{currency}}
+        <!-- <p v-for="currency in currencies.rates"> 
+            {{currency}} -->
         </p>
-        
+        <p>{{currencies.rates[selectedCurrency]}}</p>
     </div>
   </div>
   

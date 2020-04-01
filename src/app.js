@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             //     return this.currencie
             // }
             // selectedCurrencyFunction: function () {
-            //     return this.currencies.filter()
+            //     return this.currencies.find()
             // }
         },
         methods: {
